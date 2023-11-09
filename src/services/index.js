@@ -655,7 +655,7 @@ export const getBirthdayMessage = (festivals) => {
         if (item.diffDay === 0) {
           message = `生日快乐！`
         } else {
-          message = `距离 生日还有${item.diffDay}天`
+          message = `还有${item.diffDay}天`
         }
       }
 
